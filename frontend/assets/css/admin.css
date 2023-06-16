@@ -1,0 +1,58 @@
+.admin-title {
+  width: fit-content;
+  font-size: 5rem;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(135deg, orangered, dodgerblue);
+  text-decoration: underline solid cornflowerblue .075em;
+  text-underline-offset: .15em;
+}
+
+.admin-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.admin-section .create-form {
+  width: 700px;
+}
+
+.admin-section h2 {
+  font-size: 3rem;
+  text-decoration: underline dashed #ddd .075em;
+  text-underline-offset: .15em;
+}
+
+.admin-section > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.admin-section h3 {
+  font-size: 1.25rem;
+}
+
+.admin-section h3 span {
+  opacity: .5;
+}
+
+.admin-loading {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.admin-create {
+  color: limegreen;
+}
+
+.admin-update {
+  color: dodgerblue;
+}
+
+.admin-delete {
+  color: red;
+}
